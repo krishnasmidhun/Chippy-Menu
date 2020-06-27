@@ -7,6 +7,7 @@ body{font-size: 1.6rem; margin: 0;background-color: #222;font-family: Arial, Hel
 .content{
     height: 100vh;
     background: url(chippy.jpg);
+    background-repeat: no-repeat;
     display: grid;
     place-items: center;
     background-position: cover;
@@ -118,6 +119,7 @@ body{display: block;}
     }
     nav ul{
         display: flex;
+        border-top: none;
     }
     nav li{
         margin:1rem;
